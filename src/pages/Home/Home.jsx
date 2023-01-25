@@ -4,10 +4,10 @@ import Rightsidebar from '../../components/Rightsidebar/Rightsidebar';
 import Homemainbar from '../../components/Homemainbar/Homemainbar';
 import '../../App.css';
 
-const home = () => {
+const Home = () => {
   return (
     <div className='home-container-1'>
-       <Leftsidebar />
+       < Leftsidebar />
        <div className='home-container-2'>
           <Homemainbar />
           <Rightsidebar />
@@ -16,4 +16,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home

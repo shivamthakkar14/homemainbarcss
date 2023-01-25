@@ -6,7 +6,7 @@ import Auth from './pages/Auth/Auth'
 const Allroutes = () => {
   return (
     <Routes>
-        <Route path='/' element={Home}/>
+        <Route path='/' element={< Home />}/>
         <Route path='/Auth' element={<Auth />}/>
     </Routes>
   )
