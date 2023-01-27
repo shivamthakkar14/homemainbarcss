@@ -1,9 +1,9 @@
-nav{
+.main-nav{
     min-height: 40px;
     width:100%;
     border-top:solid 3px rgb(227, 152, 14);
     margin: 0% auto;
-    box-shadow: 5px 1px 5px #00000033;
+    box-shadow: 0px 1px 5px #00000033;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +11,7 @@ nav{
     z-index: 5;
     top: 0%;
     left: 0%;
+    background-color: #f8f9f9;
 
 }
 
